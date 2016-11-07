@@ -80,7 +80,7 @@ public class ResultsActivity extends AppCompatActivity {
 
             // Set data to bookAdapter
             if (books != null && !books.isEmpty()) {
-                //bookAdapter.addAll(books);
+                bookAdapter.addAll(books);
             }
         }
     }
